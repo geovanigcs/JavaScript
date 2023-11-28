@@ -29,3 +29,7 @@ let imc; //peso / altura * altura
 let anodenascimento;
 imc = peso/(altura*altura);
 console.log(imc.toFixed(2));
+anodenascimento = 1996 - idade;
+console.log(nome, sobrenome, 'tem', idade,'anos, pesa', peso,'kg.');
+console.log('Tem', altura, 'de altura e seu IMC é de', imc.toFixed(2));
+console.log(nome, 'nasceu em', anodenascimento,'.');
