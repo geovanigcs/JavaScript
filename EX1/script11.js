@@ -14,9 +14,13 @@ Entre 18 - 23 = Boa noite*/
 // !== diferente estrito (valor e tipo(ex: string or number))
 
 // Operadores lógicos
-// && -> AND -> E
-// || -> OR -> OU
-// ! -> NOT -> NÃO
+// && -> AND -> E -> TODAS AS EXPRESSÕES PRECISAM SER VERDADEIRAS PARA RETORNAR TRUE
+// || -> OR -> OU -> Aceita true se houver algum conectivo verdadeiro.
+// ! -> NOT -> NÃO -> conectivo de negação, se for true e dará como falso e o contrário também.
+
+// const expressaoAnd = true && true && false && true
+// const expressaoOr = false || false || false || true
+// const expressaoNot = true ! false ! true
 
 const hora = 12;
 if (hora <= 0 && hora <= 11) {
